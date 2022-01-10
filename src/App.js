@@ -15,12 +15,6 @@ function App() {
       <Router>
         <Navbar />
         <Home />
-        <Routes>
-          <Route path="/" />
-          <Route path="/TvShows" />
-          <Route path="/Movies" />
-          <Route path="/myList" />
-        </Routes>
       </Router>
 
     </div >

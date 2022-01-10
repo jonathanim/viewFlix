@@ -4,10 +4,10 @@ import Logo from './Logo';
 import { Link } from 'react-router-dom'
 import Registration from './Registration';
 import Login from './Login';
-import Home from '../pages/Home';
 
 
-const Container = styled.div`
+
+const NavContainer = styled.div`
     height: 100px;
     color: white;
     background: black;
@@ -36,7 +36,7 @@ const linkStyle = {
 
 function Navbar() {
   return (
-    <Container>
+    <NavContainer>
       <Wrapper >
         {/* logo*/}
         <Logo />
@@ -56,7 +56,7 @@ function Navbar() {
       </Wrapper>
       {/* Register*/}
       {/* Login*/}
-    </Container>
+    </NavContainer>
   )
 }
 
